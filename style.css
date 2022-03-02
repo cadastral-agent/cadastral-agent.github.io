@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/* Variables */
+
 :root {
     --main-text-color-blue: #03d;
     --main-text-color-dark: #444;
+    --color-white: #fff;
 }
 
 *, *::after, *::before {
@@ -17,6 +20,17 @@ a {
     text-decoration: none;
     color: inherit;
 }
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--main-text-color-blue);
+    text-transform: uppercase;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    opacity: .8;
+}
 
 html {
     display: flex;
@@ -29,9 +43,13 @@ body {
     display: flex;
     flex-direction: column;
     color: var(--main-text-color);
-    font-size: 18pt;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: .8;
 }
+
+/* Header */
 
 header {
     max-width: 1200px;
@@ -53,6 +71,7 @@ header {
 .logo {
     width: 60px;
     height: 60px;
+    padding-right: 10px;
 }
 .title-company {
     display: flex;
@@ -66,14 +85,38 @@ header {
     margin-left: 20px;
 }
 
+/* Main */
+
 main {
     height: 100%;
-    max-width: 1200px;
-    width: 100%;
+    width: 1160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* Preview */
+
+.preview {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.preview-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.preview-services {
+    margin-top: 20px;
+}
+
+/* 404 page */
+
 .page404 {
     overflow: hidden;
 }
@@ -94,13 +137,15 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: var(--main-text-color-blue);
-    font-size: 40pt;
+    font-size: 40px;
     font-weight: 700;
 }
 .error-variation {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* Footer */
 
 .footer {
     max-width: 1200px;
@@ -111,4 +156,27 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Images */
+
+.img-service {
+    padding-right: 10px;
+}
+.img-preview {
+    width: 100%;
+    height: 100%;
+}
+/* Buttons */
+
+.btn-call {
+    margin-top: 30px;
+    background-color: var(--main-text-color-blue);
+    width: 250px;
+    height: 50px;
+    color: var(--color-white);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
