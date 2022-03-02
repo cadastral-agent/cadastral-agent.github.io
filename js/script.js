@@ -1,0 +1,1 @@
+alert('Script file included')
