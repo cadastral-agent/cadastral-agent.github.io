@@ -221,8 +221,8 @@ main {
 }
 
 .steps {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	width: 100%;
 	text-align: left;
 	display: flex;
@@ -234,6 +234,17 @@ main {
 }
 .step-text {
 	font-size: 16px;
+}
+
+/* Contacts */
+
+.contacts-block {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 /* 404 page */
