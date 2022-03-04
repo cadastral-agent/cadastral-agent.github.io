@@ -56,6 +56,19 @@ h3 {
 	opacity: .8;
 }
 
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--main-text-color-blue);
+	text-transform: uppercase;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	margin-bottom: 10px;
+	opacity: .8;
+}
+
 html {
 		display: flex;
 		justify-content: center;
@@ -170,10 +183,13 @@ main {
 	align-items: flex-start;
 }
 
+/* Result */
+
 .label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 30px;
 }
 
 .result-block {
@@ -192,6 +208,33 @@ main {
 	text-align: center;
 }
 
+/* stages */
+
+.stages {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.steps {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.step {
+	width: 220px;
+}
+.step-text {
+	font-size: 16px;
+}
 
 /* 404 page */
 
@@ -248,6 +291,11 @@ main {
 
 .img-result {
 	margin-bottom: 50px;
+	opacity: .8;
+}
+.img-step-arrow {
+	margin: 0 10px;
+	opacity: .7;
 }
 
 /* Buttons */
