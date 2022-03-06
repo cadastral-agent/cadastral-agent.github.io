@@ -323,3 +323,36 @@ main {
 		align-items: center;
 		justify-content: center;
 }
+
+.adress-header-mobile {
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	body{
+		width: 800px;
+		display: flex;
+		justify-content: center;
+		margin: 0 40px;
+	}
+	header{
+		width: 100%;
+	}
+	.header-lebel {
+		display: flex;
+		flex-direction: column;
+		font-size: 24px;
+	}
+	.adress-header {
+		display: none;
+	}
+	.tel-header {
+		font-size: 36px;
+	}
+	.adress-header-mobile {
+		display: flex;
+	}
+	.img-adress {
+		padding-right: 5px;
+	}
+}
