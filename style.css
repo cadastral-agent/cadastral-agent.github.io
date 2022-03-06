@@ -335,7 +335,16 @@ main {
 		justify-content: center;
 		margin: 0 40px;
 	}
-	header{
+	h2 {
+		font-size: 56px;
+	}
+	h4 {
+		font-size: 40px;
+	}
+	header {
+		width: 100%;
+	}
+	main {
 		width: 100%;
 	}
 	.header-lebel {
@@ -366,5 +375,23 @@ main {
 	}
 	.btn-call {
 		width: 100%;
+	}
+	.services-inner {
+		flex-direction: column;
+	}
+	.services-block {
+		margin-top: 15px;
+		width: 800px;
+		justify-content: space-between;
+		font-size: 36px;
+	}
+	.img-service {
+		width: 36px;
+		height: 36px;
+	}
+	.img-services {
+		width: 300px;
+		display: flex;
+		align-items: flex-end;
 	}
 }
