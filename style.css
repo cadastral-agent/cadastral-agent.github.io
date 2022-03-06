@@ -329,9 +329,10 @@ main {
 
 @media (max-width: 1200px) {
 	body{
+		width: 100%;
 		display: flex;
 		justify-content: center;
-		margin: 0 40px;
+		margin: 20px;
 	}
 	/*h2 {
 		font-size: 56px;
@@ -346,6 +347,9 @@ main {
 		width: 100%;
 	}
 	main {
+		width: 100%;
+	}
+	footer {
 		width: 100%;
 	}
 	.header-lebel {
