@@ -330,19 +330,9 @@ main {
 @media (max-width: 1200px) {
 	body{
 		width: 100%;
-		display: flex;
 		justify-content: center;
 		margin: 20px;
 	}
-	/*h2 {
-		font-size: 56px;
-	}
-	h3 {
-		font-size: 36px;
-	}
-	h4 {
-		font-size: 40px;
-	}*/
 	header {
 		width: 100%;
 	}
@@ -355,13 +345,11 @@ main {
 	.header-lebel {
 		display: flex;
 		flex-direction: column;
-		/*font-size: 24px;*/
 	}
 	.adress-header {
 		display: none;
 	}
 	.tel-header {
-		/*font-size: 36px;*/
 		display: none;
 	}
 	.adress-header-mobile {
@@ -376,9 +364,6 @@ main {
 	.preview-right {
 		display: none;
 	}
-	.preview-services {
-		/*font-size: 36px;*/
-	}
 	.btn-call {
 		width: 100%;
 	}
@@ -389,7 +374,6 @@ main {
 		margin-top: 15px;
 		width: 100%;
 		justify-content: space-between;
-		/*font-size: 36px;*/
 	}
 	.label {
 		text-align: center;
@@ -401,18 +385,12 @@ main {
 		margin-top: 30px;		
 		width: 40%;
 	}
-	.result-text {
-		/*font-size: 24px;*/
-	}
 	.steps {
 		flex-wrap: wrap;
 	}
 	.step {
 		width: 40%;
 		margin: 30px 0;
-	}
-	.step-text {
-		/*font-size: 24px;*/
 	}
 	.contacts-block {
 		flex-wrap: wrap;
@@ -421,21 +399,9 @@ main {
 		margin: 30px 0;
 		width: 40%;
 	}
-	.contact-info-text {
-		/*font-size: 24px;*/
-	}
-	
-	/*
-	.img-service {
-		width: 36px;
-		height: 36px;
-	}
 	.img-services {
-		width: 300px;
-		display: flex;
-		align-items: flex-end;
+		padding-left: 5px;
 	}
-	*/
 	.img-step-arrow {
 		display: none;
 	}
