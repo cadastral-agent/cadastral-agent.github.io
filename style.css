@@ -362,6 +362,7 @@ main {
 	}
 	.tel-header {
 		/*font-size: 36px;*/
+		display: none;
 	}
 	.adress-header-mobile {
 		display: flex;
