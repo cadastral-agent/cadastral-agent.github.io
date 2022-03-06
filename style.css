@@ -355,4 +355,16 @@ main {
 	.img-adress {
 		padding-right: 5px;
 	}
+	.preview-left {
+		width: 800px;
+	}
+	.preview-right {
+		display: none;
+	}
+	.preview-services {
+		font-size: 36px;
+	}
+	.btn-call {
+		width: 100%;
+	}
 }
