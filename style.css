@@ -329,7 +329,6 @@ main {
 
 @media (max-width: 1200px) {
 	body{
-		width: 100%;
 		display: flex;
 		justify-content: center;
 		margin: 0 40px;
@@ -404,7 +403,7 @@ main {
 		flex-wrap: wrap;
 	}
 	.step {
-		width: 390px;
+		width: 40%;
 		margin: 30px 0;
 	}
 	.step-text {
@@ -415,11 +414,13 @@ main {
 	}
 	.contacts-inner {
 		margin: 30px 0;
-		width: 390px;
+		width: 40%;
 	}
 	.contact-info-text {
 		/*font-size: 24px;*/
 	}
+	
+	/*
 	.img-service {
 		width: 36px;
 		height: 36px;
@@ -429,6 +430,7 @@ main {
 		display: flex;
 		align-items: flex-end;
 	}
+	*/
 	.img-step-arrow {
 		display: none;
 	}
