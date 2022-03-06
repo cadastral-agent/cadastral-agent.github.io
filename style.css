@@ -329,7 +329,7 @@ main {
 
 @media (max-width: 1200px) {
 	body{
-		width: 800px;
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		margin: 0 40px;
@@ -367,7 +367,7 @@ main {
 		padding-right: 5px;
 	}
 	.preview-left {
-		width: 800px;
+		width: 100%;
 	}
 	.preview-right {
 		display: none;
@@ -383,7 +383,7 @@ main {
 	}
 	.services-block {
 		margin-top: 15px;
-		width: 800px;
+		width: 100%;
 		justify-content: space-between;
 		/*font-size: 36px;*/
 	}
@@ -395,7 +395,7 @@ main {
 	}
 	.result-inner {
 		margin-top: 30px;		
-		width: 300px;
+		width: 40%;
 	}
 	.result-text {
 		/*font-size: 24px;*/
