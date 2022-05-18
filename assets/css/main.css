@@ -328,7 +328,7 @@ main {
 	display: none;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
 	body{
 		width: 100%;
 		justify-content: center;
@@ -406,4 +406,4 @@ main {
 	.img-step-arrow {
 		display: none;
 	}
-}
+} */
