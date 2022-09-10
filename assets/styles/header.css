@@ -1,14 +1,14 @@
 .header {
-    max-width: 1200px;
-    width: 1160px;
-    height: 60px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--main-text-color-red);
+	max-width: 1200px;
+	width: 1160px;
+	height: 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--main-text-color-red);
 }
 .left-header {
     display: flex;
@@ -46,10 +46,15 @@
 }
 
 .preview-right {
-    background: url(../images/intro-photo.png);
+    /* background: url(../images/intro-photo.png); */
     width: 600px;
     height: 400px;
     box-shadow: inset 0 0 10px 10px #fff;
+}
+
+.preview-right img {
+    position: relative;
+    z-index: -1;
 }
 
 .preview-left {
