@@ -1,0 +1,36 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+.img-services {
+    width: 140px;
+    height: 200px;
+    box-shadow: inset 0 0 10px 10px #fff;
+}
+
+.img-definition {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.img-service {
+    padding-right: 10px;
+    color: var(--main-text-color-red);
+}
+.img-preview {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img-result {
+    margin-bottom: 50px;
+    opacity: .8;
+}
+.img-step-arrow {
+margin: 0 10px;
+opacity: .7;
+}

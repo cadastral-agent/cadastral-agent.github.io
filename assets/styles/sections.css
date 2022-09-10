@@ -1,0 +1,136 @@
+.sections {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+.services {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-block {
+    display: flex;
+    width: 540px;
+}
+
+.service-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.result-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result-inner {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stages {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.steps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.step {
+    width: 220px;
+}
+.step-text {
+    font-size: 16px;
+}
+
+.definitions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.definitions-inner {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+}
+.definitions-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.definition:hover::after {
+    content: attr(data-desc);
+    width: 340px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    background: #FFf;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px var(--main-text-color-dark);
+}
+
+.contacts-block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

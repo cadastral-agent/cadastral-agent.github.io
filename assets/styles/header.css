@@ -1,0 +1,63 @@
+.header {
+    max-width: 1200px;
+    width: 1160px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-text-color-red);
+}
+.left-header {
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+}
+
+.title-company {
+    display: flex;
+}
+.right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tel-header {
+    margin-left: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.adress-header {
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adress-header-mobile {
+    display: none;
+}
+
+.preview-right {
+    background: url(../images/intro-photo.png);
+    width: 600px;
+    height: 400px;
+    box-shadow: inset 0 0 10px 10px #fff;
+}
+
+.preview-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.preview-services {
+    margin-top: 20px;
+}
