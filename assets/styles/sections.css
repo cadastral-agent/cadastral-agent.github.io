@@ -23,9 +23,12 @@
 
 .subtitle {
     margin-top: 5px;
+	text-align: center;
 }
 
-.content {
+.content {	
+	margin-top: 20px;
+	margin-bottom: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +38,19 @@
     align-content: space-around;
 }
 
+.content-block {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	text-align: center;
+}
+
+.content-inner {
+	display: flex;
+	flex-direction: row;
+}
+
 .services {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -42,23 +58,11 @@
     flex-direction: column;
     align-items: center;
 }
-.services-block {
-    display: flex;
-    width: 540px;
-}
 
 .service-content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.result-block {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .result-inner {
@@ -78,7 +82,7 @@
     text-align: center;
 }
 
-.steps {
+.content {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -123,13 +127,4 @@
     margin: 5px;
     padding: 5px;
     box-shadow: 0 0 5px var(--main-text-color-dark);
-}
-
-.contacts-block {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
