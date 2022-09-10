@@ -1,1 +1,35 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        width: 1000px;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 5px;
+    }
 
+    header {
+        width: 1000px;
+    }
+
+    .header {
+        width: 1000px;
+    }
+
+    .header-title {
+        font-size: 28px;
+    }
+
+    .sections {
+        width: 1000px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .content {
+        width: 1000px;
+    }
+
+    .services-block {
+        width: 490px;
+    }
+}
