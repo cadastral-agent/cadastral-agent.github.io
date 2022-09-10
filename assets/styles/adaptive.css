@@ -17,6 +17,11 @@
 	.header-title {
 		font-size: 28px;
 	}
+
+	main {
+		width: 1000px;
+	}
+
 	.sections {
 		width: 1000px;
 		margin-top: 10px;
@@ -50,6 +55,9 @@
 	.preview-right {
     	display: none;
 	}
+	main {
+		width: 750px;
+	}
 	.sections {
 		width: 750px;
 	}
@@ -67,9 +75,6 @@
 		margin-top: 20px;
 		width: 750px;
 		justify-content: space-around;
-	}
-	.step-text {
-		
 	}
 
 	.img-step-arrow {
