@@ -10,27 +10,26 @@
 		<title>Кадастровое агентство</title>
 	</head>
 	<body>
-		<header>
-			<div class="left-header">
-				<div class="logo"><img src="assets/images/logo.png" class="logo"></div>
-					<div class="header-lebel">
-						<div class="title-company">Кадастровое агентство</div>
-					<div class="adress-header-mobile">
-						<img src="assets/images/locate.svg" class="img-adress">
-						<div>ул. Худякова, д. 11, оф. 12</div>
+		<header id="header">
+			<div class="header">
+				<div class="left-header">
+					<div class="logo"><img src="assets/images/logo.png" class="logo"></div>
+						<div class="header-lebel">
+							<div class="title-company">Кадастровое агентство</div>
+						<div class="adress-header-mobile">
+							<img src="assets/images/locate.svg" class="img-adress">
+							<div>ул. Худякова, д. 11, оф. 12</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="right-header">
-				<div class="adress-header">
-					<img src="assets/images/locate.svg">
-					ул. Худякова, д. 11, оф. 12
+				<div class="right-header">
+					<div class="adress-header">
+						<img src="assets/images/locate.svg"><p>ул. Худякова, д. 11, оф. 12</p>
+					</div>
+					<div class="tel-header"><a href="tel:+79220100245">+7 (922) 010-02-45</a></div>
 				</div>
-				<div class="tel-header"><a href="tel:+79220100245">+7 (922) 010-02-45</a></div>
 			</div>
-		</header>
-		<main>
-			<section class="preview">
+			<div class="intro">
 				<div class="preview-left">
 					<h1 class="header-title">Кадастровые,<br>геодезические работы<br>в челябинской области</h1>
 					<div class="preview-services">
@@ -38,16 +37,21 @@
 						<div class="service"><img src="assets/images/service.svg" class="img-service">Технический план</div>
 						<div class="service"><img src="assets/images/service.svg" class="img-service">Технический паспорт</div>
 						<div class="service"><img src="assets/images/service.svg" class="img-service">Вынос точек</div>
+						<div class="service"><img src="assets/images/service.svg" class="img-service">Акт обследования</div>
 					</div>
 					<div class="wrapper">
 						<div class="btn-call"><a href="tel:+79220100245">Позвонить</a></div>
 					</div>
 				</div>
-				<div class="preview-right"><img src="https://via.placeholder.com/480x400" class="img-preview"></div>
-			</section>
-			<section class="services">
-				<h2>Наши услуги</h2>
-				<div class="services-inner">
+				<div class="preview-right"></div>
+			</div>		
+		</header>
+		<main>
+			<section id="services" class="sections">
+				<div class="label">
+					<h2 class="title">Наши услуги</h2>
+				</div>
+				<div class="content">
 					<div class="services-block">
 						<div class="service-content">
 							<h4>Земля</h4>
@@ -69,7 +73,7 @@
 							</div>
 						</div>
 						<div class="img-services">
-							<img src="https://via.placeholder.com/140x200" class="img-services">
+							<img src="assets/images/map.png" class="img-services">
 						</div>
 					</div>
 					<div class="services-block">
@@ -101,15 +105,14 @@
 							</div>
 						</div>
 						<div class="img-services">
-							<img src="https://via.placeholder.com/140x200" class="img-services">
+							<img src="assets/images/drowing.png" class="img-services">
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="result">
+			<section id="result" class="sections">
 				<div class="label">
-					<div class="title"><h2>Что вы получаете при работе с нами</h2></div>
-					<div class="subtitle"><h3>Поможем подготовить пакет документов для регистрации право собственности</h3></div>
+					<h2 class="title">Что вы получаете при работе с нами</h2><h3 class="subtitle">Поможем подготовить пакет документов для регистрации право собственности</h3>
 				</div>
 				<div class="result-block">
 					<div class="result-inner">
@@ -130,62 +133,114 @@
 					</div>
 				</div>
 			</section>
-			<section class="stages">
+			<section id="stages" class="sections">
 				<div class="lebel">
 					<h2 class="title">Этапы работ</h2>
 					<h3 class="subtitle">Что мы сделаем для решения Вашей задачи</h3>
 				</div>
-				<div class="steps">
-					<div class="step">
-						<h4>Заявка</h4>
-						<p class="step-text">Бесплатная консультация и заключение договора</p>
-					</div>
-					<img src="assets/images/arrow-step.svg" class="img-step-arrow">
-					<div class="step">
-						<h4 class="title">Выезд на объект</h4>
-						<p class="step-text">Выезд кадастрового инженера в удобное для вас время</p>
-					</div>
-					<img src="assets/images/arrow-step.svg" class="img-step-arrow">
-					<div class="step">
-						<h4 class="title">Оформление</h4>
-						<p class="step-text">Формирование необходимых документов кадастровым инженером</p>
-					</div>
-					<img src="assets/images/arrow-step.svg" class="img-step-arrow">
-					<div class="step">
-						<h4 class="title">Результат</h4>
-						<p class="step-text">Выдача документов для постановки объекта на кадастровый учет</p>
+				<div class="content">
+					<div class="steps">
+						<div class="step">
+							<h4>Заявка</h4>
+							<p class="step-text">Бесплатная консультация и заключение договора</p>
+						</div>
+						<img src="assets/images/arrow-step.svg" class="img-step-arrow">
+						<div class="step">
+							<h4 class="title">Выезд на объект</h4>
+							<p class="step-text">Выезд кадастрового инженера в удобное для вас время</p>
+						</div>
+						<img src="assets/images/arrow-step.svg" class="img-step-arrow">
+						<div class="step">
+							<h4 class="title">Оформление</h4>
+							<p class="step-text">Формирование необходимых документов кадастровым инженером</p>
+						</div>
+						<img src="assets/images/arrow-step.svg" class="img-step-arrow">
+						<div class="step">
+							<h4 class="title">Результат</h4>
+							<p class="step-text">Выдача документов для постановки объекта на кадастровый учет</p>
+						</div>
 					</div>
 				</div>
 				<div class="btn-call"><a href="tel:+79220100245">Получить консультацию</a></div>
 			</section>
-			<section class="contacts">
-				<div class="label"><h2>Наши контакты</h2></div>
-				<div class="contacts-block">
-					<div class="contacts-inner">
-						<div class="contact-label"><h4>График работы</h4></div>
-						<div class="contact-info">
-							<div class="contact-info-text">ПН-ПТ: 10:00-17:00</div>
-							<div class="contact-info-text">Обед: 12:00-13:00</div>
+			<section id="definitions" class="sections">
+				<div class="content">
+					<div class="definitions-inner">
+						Государственный кадастровый учет недвижимого имущества
+						<div class="definition" data-desc="это процедура внесения в ЕГРН сведений об объектах недвижимости (Федеральный закон от 13.07.2015 N 218-ФЗ). При внесении сведений о вновь создаваемом объекте происходит Постановка объекта на кадастровый учёт, при внесении сведений о существующем в ЕГРН объекте происходит Внесение изменений сведений об объекте, при прекращении существования объекта происходит Снятие объекта с кадастрового учёта. Для этих процедур необходимо произвести Кадастровые работ, которые осуществляет Кадастровый инженер, результатом этих работ является межевой план, технический план или акт обследования.">
+							<img src="./assets/images/help.svg" class="img-definition">
+						</div>										
+					</div>
+					<div class="definitions-inner">
+						Межевой план
+						<div class="definition" data-desc="это документ (Приказ Росреестра от 14.12.2021 N П/0592), с помощью которого вносятся сведения о земельном участке в ЕГРН. Подготавливается в форме электронного документа, заверенного усиленной квалифицированной электронной подписью кадастрового инженера, подготовившего такой план, и оформляется в виде файлов в формате XML. Для разрешения в судебном порядке земельного спора, межевой план готовится в форме документа на бумажном носителе, заверяется подписью и печатью кадастрового инженера. Готовится в случае: раздела, объединения, перераспределения (присоединение дополнительного участка к существующему и образование новых участка из нескольких), уточнения границ, образование и создание участка (когда создаётся новый участок, которого ранее не было в реестре), выдел доли в натуре из общего-долевого участка.">
+							<img src="./assets/images/help.svg" class="img-definition">
 						</div>
 					</div>
-					<div class="contacts-inner">
-						<div class="contact-label"><h4>Адрес</h4></div>
-						<div class="contact-info">
-							<div class="contact-info-text">г. Челябинск</div>
-							<div class="contact-info-text">ул. Худякова, д. 11, оф. 12</div>
+					<div class="definitions-inner">
+						Технический план
+						<div class="definition" data-desc="это утвержденная форма документа (Приказ Росреестра от 15.03.2022 N П/0082) на объекты недвижимости такие как здание, сооружение, помещение, дом, квартира, гараж, баня, веранда, сети коммуникаций, сараи, теплицы, хозблоки, машино-место, объект незавершённого строительства (ОНС), единый недвижимый комплекс и другие объекты капитального строительства (ОКС). Изготавливает ТОЛЬКО аттестованный КАДАСТРОВЫЙ ИНЖЕНЕР. На сегодняшний день именно на основании этого документа производится постановка объектов недвижимости на кадастровый учет или внесение изменений в ЕГРН (регистрация дома и оформление дома с последующей регистрацией права собственности). ТОЛЬКО аттестованный КАДАСТРОВЫЙ ИНЖЕНЕР. Частью 8 статьи 47 Федерального закона от 24 июля 2007 г. № 221-ФЗ «О государственном кадастре недвижимости» (Закона о кадастре) установлено, что с 1 января 2013 г. на всей территории РФ осуществляется государственный кадастровый учет зданий, сооружений, помещений, объектов незавершенного строительства в соответствии с требованиями Закона о кадастре, Таким образом для целей осуществления государственного кадастрового учета объектов недвижимости изготовление технических паспортов государственными и муниципальными организациями технической инвентаризации таких объектов недвижимости не предусмотрено действующим законодательством, в таких организациях вы можете ЛИШЬ за деньги заказать техпаспорт изготовленный до 01.01.2013 г. который содержится у них на хранении по сей день, они являются хранителями архива.">
+							<img src="./assets/images/help.svg" class="img-definition">
 						</div>
 					</div>
-					<div class="contacts-inner">
-						<div class="contact-label"><h4>Телефоны</h4></div>
-						<div class="contact-info">
-							<div class="contact-info-text"><a href="tel:+79220100245">+7 (922) 010-02-45</a></div>
-							<div class="contact-info-text"><a href="tel:+79630797514">+7 (963) 073-75-14</a></div>
+					<div class="definitions-inner">
+						Межевание земельных участков
+						<div class="definition" data-desc="иными словами Уточнение границ земельного участка или Внесение сведений о местоположении границ в Единый государственный реестр недвижимости (ЕГРН). Представляет собой комплекс работ, который включает в себя: -обследование участка; -замеры границ участка специализированным геодезическим оборудованием; -запрос существующих сведений из ЕГРН и документов в Государственном фонде данных (ГФД); -оформлению полученных сведений в соответствии с правоустанавливающими (землеотводными) документами и фактическим расположением участка на местности; -подготовка межевого плана и акта согласования границ, для внесение этих сведений в ЕГРН, для установления границ землепользования. После выполнения данного комплекса границы земельного участка считаются установленными в соответствии с требованиями земельного законодательства и отображаются на Публичной кадастровой карте (ПКК).">
+							<img src="./assets/images/help.svg" class="img-definition">
 						</div>
 					</div>
-					<div class="contacts-inner">
-						<div class="contact-label"><h4>Напишите нам</h4></div>
-						<div class="contact-info">
-							<div class="contact-info-text"><a href="mailto:cadagent@mail.ru">cadagent@mail.ru</a></div>
+					<div class="definitions-inner">
+						Вынос точек на местности
+						<div class="definition" data-desc="геодезист с помощью GNSS приемника устанавливает на местности точки по их известным координатам, которые содержатся в Едином государственном реестре недвижимости.">
+							<img src="./assets/images/help.svg" class="img-definition">
+						</div>
+					</div>
+					<div class="definitions-inner">
+						Схема расположения земельного участка на кадастровом плане территории (КПТ)
+						<div class="definition" data-desc="документ для предоставления в уполномоченный орган и согласования предоставления или перераспределения земельного участка находящихся в государственной или муниципальной собственности.">
+							<img src="./assets/images/help.svg" class="img-definition">
+						</div>
+					</div>
+					<div class="definitions-inner">
+						Акт обследования
+						<div class="definition" data-desc="этот документ необходим для снятия с кадастрового учета в тех случаях, когда нужно доказать, что объекта больше нет.">
+							<img src="./assets/images/help.svg" class="img-definition">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacts" class="sections">
+				<div class="label">
+					<h2 class="title">Наши контакты</h2>
+				</div>
+				<div class="content">
+					<div class="contacts-block">
+						<div class="contacts-inner">
+							<div class="contact-label"><h4>График работы</h4></div>
+							<div class="contact-info">
+								<div class="contact-info-text">ПН-ПТ: 10:00-17:00</div>
+								<div class="contact-info-text">Обед: 12:00-13:00</div>
+							</div>
+						</div>
+						<div class="contacts-inner">
+							<div class="contact-label"><h4>Адрес</h4></div>
+							<div class="contact-info">
+								<div class="contact-info-text">г. Челябинск</div>
+								<div class="contact-info-text">ул. Худякова, д. 11, оф. 12</div>
+							</div>
+						</div>
+						<div class="contacts-inner">
+							<div class="contact-label"><h4>Телефоны</h4></div>
+							<div class="contact-info">
+								<div class="contact-info-text"><a href="tel:+79220100245">+7 (922) 010-02-45</a></div>
+								<div class="contact-info-text"><a href="tel:+79630797514">+7 (963) 073-75-14</a></div>
+							</div>
+						</div>
+						<div class="contacts-inner">
+							<div class="contact-label"><h4>Напишите нам</h4></div>
+							<div class="contact-info">
+								<div class="contact-info-text"><a href="mailto:cadagent@mail.ru">cadagent@mail.ru</a></div>
+							</div>
 						</div>
 					</div>
 				</div>
